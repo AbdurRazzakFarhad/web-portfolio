@@ -1,22 +1,100 @@
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        h1 {
-            font-size: 50px;
-        }
-        
-        .name-highlight {
-            color: orange;
-        }
-        
-        .half-path {
-            width: 40%;
-            float: left;
-            margin-left: 5%;
-            padding-left: 1%;
-        }
-        
-        .half-path img {
-            width: 100%;
-        }
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    color: orange;
+}
+
+p {
+    color: dimgray;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+f h1 .name-highlight {
+    color: orange;
+}
+
+.half-path {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-path img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
+
+.hire-me-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #FF6F51;
+    padding: 9px 40px;
+    margin: auto;
+    border-radius: 5px;
+    margin: auto;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    display: inline-block;
+}
+
+.middle-banner {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer-banner h3 {
+    color: #FFA500;
+}
+
+.footer-banner .left-border1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.footer-banner .left-border2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+
+}
+
+.footer-banner .left-border1 {
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+
+.footer-banner .left-border2 {
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+.footer-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer{
+    margin-top: 70px;
+    text-align: center;
+}
